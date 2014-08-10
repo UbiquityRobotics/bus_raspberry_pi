@@ -62,7 +62,7 @@ The reset signal can be sourced from four locations:
 
 * The manual push button -- SW1,
 
-* #NRST on the JTAG connector (N8),
+* The #NRST on the JTAG connector (N8),
 
 * The GPIO18 pin on N9, and
 

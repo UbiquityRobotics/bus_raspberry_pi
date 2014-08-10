@@ -1,0 +1,360 @@
+Cmp-Mod V01 Created by Cvpcb (2014-jan-25)-product   date = Sat 09 Aug 2014 10:06:27 AM PDT
+
+BeginCmp
+TimeStamp = /53E3C60A;
+Reference = C1;
+ValeurCmp = 18pF;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3C64E;
+Reference = C2;
+ValeurCmp = 18pF;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3D418;
+Reference = C3;
+ValeurCmp = .1uF;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E6B04F;
+Reference = C4;
+ValeurCmp = .1uF;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E6AFFE;
+Reference = C5;
+ValeurCmp = .1uF;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E6AFAA;
+Reference = C6;
+ValeurCmp = .1uF;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E6ADD9;
+Reference = C7;
+ValeurCmp = .1uF;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3D5A6;
+Reference = D1;
+ValeurCmp = SD101C-TR;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Diode_DO-41_SOD81_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E63EA5;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = Bus_Raspberry_Pi_Rev_A:T1_LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3C149;
+Reference = H1;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Bus_Raspberry_Pi_Rev_A:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3C18C;
+Reference = H2;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Bus_Raspberry_Pi_Rev_A:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3C1AF;
+Reference = H3;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Bus_Raspberry_Pi_Rev_A:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3C1D1;
+Reference = H4;
+ValeurCmp = 3MM_HOLE;
+IdModule  = Bus_Raspberry_Pi_Rev_A:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3E1E4;
+Reference = J1;
+ValeurCmp = TERMINATE_JUMPER;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E640FC;
+Reference = J2;
+ValeurCmp = LED_JUMPER;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Pin_Header_Straight_2x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3E19D;
+Reference = N1;
+ValeurCmp = BHR-10-HUA;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Pin_Header_Straight_2x05_Shrouded;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E4066A;
+Reference = N2;
+ValeurCmp = FTDI_HEADER;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3FD6B;
+Reference = N3;
+ValeurCmp = FTDI_HEADER;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E527E9;
+Reference = N4;
+ValeurCmp = OSTTC020162;
+IdModule  = Bus_Raspberry_Pi_Rev_A:5MM_TERMINAL_BLOCK_2_POS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3C96B;
+Reference = N5;
+ValeurCmp = OSTTC020162;
+IdModule  = Bus_Raspberry_Pi_Rev_A:5MM_TERMINAL_BLOCK_2_POS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3FD86;
+Reference = N6;
+ValeurCmp = OKI-77SR-5/1.5-W36-C;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E41823;
+Reference = N7;
+ValeurCmp = AVR_ISP_HEADER;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3C0A9;
+Reference = N8;
+ValeurCmp = BHR-10-HUA;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Pin_Header_Straight_2x05_Shrouded;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E65B95;
+Reference = N9;
+ValeurCmp = RASPI_CONNECTOR_40;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3EFB4;
+Reference = Q1;
+ValeurCmp = FQP47P06;
+IdModule  = Bus_Raspberry_Pi_Rev_A:TO-220_FET-GDS_Horizontal_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E432D5;
+Reference = R1;
+ValeurCmp = 22K 1%;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E596D8;
+Reference = R2;
+ValeurCmp = 33K 1%;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3E255;
+Reference = R3;
+ValeurCmp = 120 1%;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E4F15B;
+Reference = R4;
+ValeurCmp = 100K;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E64B49;
+Reference = R5;
+ValeurCmp = 22K 1%;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E64B9B;
+Reference = R6;
+ValeurCmp = 33K 1%;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E621E8;
+Reference = R7;
+ValeurCmp = 22K 1%;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E6225D;
+Reference = R8;
+ValeurCmp = 33K 1%;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3D3C3;
+Reference = R9;
+ValeurCmp = 10K;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3D54A;
+Reference = R10;
+ValeurCmp = 10K;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E6A49B;
+Reference = R11;
+ValeurCmp = 22K 1%;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E6A551;
+Reference = R12;
+ValeurCmp = 33K 1%;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E41A67;
+Reference = R13;
+ValeurCmp = 22K 1%;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E41B7A;
+Reference = R14;
+ValeurCmp = 33K 1%;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E5757D;
+Reference = R15;
+ValeurCmp = 100K;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E57ADF;
+Reference = R16;
+ValeurCmp = 22K 1%;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E57B5E;
+Reference = R17;
+ValeurCmp = 33K 1%;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E65092;
+Reference = R18;
+ValeurCmp = 470;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E6468F;
+Reference = R19;
+ValeurCmp = 470;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Resistor_Horizontal__400;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3DC2A;
+Reference = SW1;
+ValeurCmp = MJTP1243;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Button_6.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3D21A;
+Reference = U1;
+ValeurCmp = 74x05;
+IdModule  = Bus_Raspberry_Pi_Rev_A:DIP-14__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3E160;
+Reference = U2;
+ValeurCmp = MCP2562;
+IdModule  = Bus_Raspberry_Pi_Rev_A:DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E4047B;
+Reference = U3;
+ValeurCmp = 74X08;
+IdModule  = Bus_Raspberry_Pi_Rev_A:DIP-14__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3BFBE;
+Reference = U4;
+ValeurCmp = ATMEGA324_DIP40;
+IdModule  = Bus_Raspberry_Pi_Rev_A:DIP-40__600;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3C581;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = Bus_Raspberry_Pi_Rev_A:Crystal_HC49-U_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3C102;
+Reference = X2;
+ValeurCmp = OSHW_LOGO;
+IdModule  = Bus_Raspberry_Pi_Rev_A:OSHW_LOGO_200mil;
+EndCmp
+
+EndListe

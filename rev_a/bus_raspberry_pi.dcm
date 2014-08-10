@@ -56,6 +56,10 @@ $CMP LED
 D Light Emitting Diode (Vertical)
 $ENDCMP
 #
+$CMP LED_JUMPER
+D LED Power/Blink Jumper
+$ENDCMP
+#
 $CMP MCP2562
 D MCBP2562 (Microchip CAN Bus Transceiver)
 $ENDCMP
@@ -78,6 +82,10 @@ $ENDCMP
 #
 $CMP RASPI_CONNECTOR
 D 26-pin Raspberry Pi Connector
+$ENDCMP
+#
+$CMP RASPI_CONNECTOR_40
+D 40-pin Raspberry Pi Connector
 $ENDCMP
 #
 $CMP REGULATOR_CONNECTOR
