@@ -100,8 +100,16 @@ $CMP R_VERT
 D Vertical Resistor
 $ENDCMP
 #
+$CMP R_VERT_SIP8
+D Vertical Resistor in SIP-8 Package
+$ENDCMP
+#
 $CMP SCHOTTKY_DIODE_VERT
 D Vertical Schottky_Diode
+$ENDCMP
+#
+$CMP SERIAL_CONNECTOR
+D Serial Connection
 $ENDCMP
 #
 $CMP TERMINATE_JUMPER
