@@ -265,7 +265,7 @@ through the LED to ground.
 When pins 3 and 4 of J2 are shorted together, there is
 no circuit path through LED (D2).
 
-When pins 1 and 2 of J2 are accidentally shorted togeter,
+When pins 1 and 2 of J2 are accidentally shorted together,
 resistors R5 and R6 form a voltage divider that simply
 wastes power.  At least it does not accidentally short
 the power supply to ground.
