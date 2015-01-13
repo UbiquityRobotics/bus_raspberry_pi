@@ -100,10 +100,6 @@ $CMP RASPI_CONNECTOR
 D 26-pin Raspberry Pi Connector
 $ENDCMP
 #
-$CMP RASPI_CONNECTOR_40
-D 40-pin Raspberry Pi Connector
-$ENDCMP
-#
 $CMP REGULATOR_CONNECTOR
 D Oki Regulator Connector
 $ENDCMP

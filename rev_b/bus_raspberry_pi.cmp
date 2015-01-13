@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Sun 11 Jan 2015 06:44:10 PM PST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Tue 13 Jan 2015 03:02:09 PM PST
 
 BeginCmp
 TimeStamp = /5443556B;
@@ -85,6 +85,20 @@ IdModule  = bus_raspberry_pi:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B4A01C;
+Reference = C12;
+ValeurCmp = .1uF;
+IdModule  = bus_raspberry_pi:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B4A070;
+Reference = C13;
+ValeurCmp = .1uF;
+IdModule  = bus_raspberry_pi:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
 TimeStamp = /53E3D5A6;
 Reference = D1;
 ValeurCmp = SD101C-TR;
@@ -148,6 +162,13 @@ IdModule  = bus_raspberry_pi:Pin_Header_Straight_2x02;
 EndCmp
 
 BeginCmp
+TimeStamp = /54B45922;
+Reference = N1;
+ValeurCmp = RASPI_CONNECTOR_40;
+IdModule  = bus_raspberry_pi:Pin_Header_Straight_2x20;
+EndCmp
+
+BeginCmp
 TimeStamp = /53E3E19D;
 Reference = N3;
 ValeurCmp = BUS_HEADER;
@@ -190,34 +211,6 @@ IdModule  = bus_raspberry_pi:Pin_Header_Straight_2x05_Shrouded;
 EndCmp
 
 BeginCmp
-TimeStamp = /53E8703D;
-Reference = N10;
-ValeurCmp = BBB_P9_HEADER;
-IdModule  = bus_raspberry_pi:Pin_Header_Straight_2x23;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AE3DBE;
-Reference = N11;
-ValeurCmp = KEY2;
-IdModule  = bus_raspberry_pi:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AE3F64;
-Reference = N12;
-ValeurCmp = KEY2;
-IdModule  = bus_raspberry_pi:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AE3FBA;
-Reference = N13;
-ValeurCmp = KEY2;
-IdModule  = bus_raspberry_pi:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
 TimeStamp = /53E3E255;
 Reference = R1;
 ValeurCmp = 120 1%;
@@ -253,17 +246,10 @@ IdModule  = bus_raspberry_pi:Resistor_Horizontal__400;
 EndCmp
 
 BeginCmp
-TimeStamp = /5443982F;
+TimeStamp = /54B4BD8C;
 Reference = R6;
-ValeurCmp = 4K7;
-IdModule  = bus_raspberry_pi:Resistor_Horizontal__400;
-EndCmp
-
-BeginCmp
-TimeStamp = /5443998E;
-Reference = R7;
-ValeurCmp = 4K7;
-IdModule  = bus_raspberry_pi:Resistor_Horizontal__400;
+ValeurCmp = 3K9_SIP5;
+IdModule  = bus_raspberry_pi:Pin_Header_Straight_1x05;
 EndCmp
 
 BeginCmp
@@ -313,6 +299,13 @@ TimeStamp = /54B2CD78;
 Reference = U6;
 ValeurCmp = L78L33AC;
 IdModule  = bus_raspberry_pi:TO92_123;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B47EE3;
+Reference = U7;
+ValeurCmp = MCP24XX32A;
+IdModule  = bus_raspberry_pi:DIP-8__300;
 EndCmp
 
 BeginCmp
