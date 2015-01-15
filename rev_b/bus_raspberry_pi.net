@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/wayne/public_html/projects/bus_raspberry_pi/rev_b/bus_raspberry_pi.sch)
-    (date "Tue 13 Jan 2015 03:01:44 PM PST")
+    (date "Wed 14 Jan 2015 05:06:12 PM PST")
     (tool "Eeschema (2014-jul-16 BZR unknown)-product"))
   (components
     (comp (ref U5)
@@ -125,7 +125,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 53E4066A))
     (comp (ref U2)
-      (value 74HCT08)
+      (value 74HC08)
       (footprint bus_raspberry_pi:DIP-14__300)
       (libsource (lib bus_raspberry_pi) (part 74X08))
       (sheetpath (names /) (tstamps /))
@@ -281,6 +281,13 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 54B4BD8C)))
   (libparts
+    (libpart (lib bus_raspberry_pi) (part 3MM_HOLE)
+      (description "3mm Mounting Hole (#4 hole too)")
+      (fields
+        (field (name Reference) H)
+        (field (name Value) 3MM_HOLE))
+      (pins
+        (pin (num 1) (name GND) (type power_in))))
     (libpart (lib bus_raspberry_pi) (part 74X08)
       (aliases
         (alias 74LS09))
@@ -302,13 +309,6 @@
         (pin (num 12) (name ~) (type input))
         (pin (num 13) (name ~) (type input))
         (pin (num 14) (name VCC) (type power_in))))
-    (libpart (lib bus_raspberry_pi) (part 3MM_HOLE)
-      (description "3mm Mounting Hole (#4 hole too)")
-      (fields
-        (field (name Reference) H)
-        (field (name Value) 3MM_HOLE))
-      (pins
-        (pin (num 1) (name GND) (type power_in))))
     (libpart (lib bus_raspberry_pi) (part 2_LEAD_PUSH_BUTTON)
       (fields
         (field (name Reference) SW)

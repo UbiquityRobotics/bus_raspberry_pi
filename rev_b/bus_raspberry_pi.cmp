@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Tue 13 Jan 2015 03:02:09 PM PST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Wed 14 Jan 2015 05:06:25 PM PST
 
 BeginCmp
 TimeStamp = /5443556B;
@@ -269,7 +269,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53E4047B;
 Reference = U2;
-ValeurCmp = 74HCT08;
+ValeurCmp = 74HC08;
 IdModule  = bus_raspberry_pi:DIP-14__300;
 EndCmp
 
