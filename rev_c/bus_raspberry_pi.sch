@@ -37,8 +37,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Bus Raspberry Pi"
-Date "Tue 13 Jan 2015"
-Rev "B"
+Date "Sat 31 Jan 2015"
+Rev "C"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -569,7 +569,7 @@ F 3 "" H 4300 7400 60  0000 C CNN
 $EndComp
 Text Notes 4500 7800 0    50   ~ 0
 Filter Capacitors
-Text Notes 2650 6000 0    50   ~ 0
+Text Notes 2900 5900 0    50   ~ 0
 Bus Transceiver
 Text Notes 2600 1900 0    50   ~ 0
 Reset Circuitry
