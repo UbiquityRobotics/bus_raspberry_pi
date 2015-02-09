@@ -104,6 +104,10 @@ $CMP REGULATOR_CONNECTOR
 D Oki Regulator Connector
 $ENDCMP
 #
+$CMP RESET_SEL
+D Bus Termination Jumper
+$ENDCMP
+#
 $CMP RTC_CRYSTAL
 D Crystal
 $ENDCMP

@@ -37,7 +37,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Bus Raspberry Pi"
-Date "Sat 31 Jan 2015"
+Date "Sun 08 Feb 2015"
 Rev "C"
 Comp ""
 Comment1 ""
@@ -70,12 +70,12 @@ $EndComp
 $Comp
 L OSHW_LOGO H5
 U 1 1 53E3C102
-P 1000 1100
-F 0 "H5" H 1000 1350 50  0000 C CNN
-F 1 "OSHW_LOGO" H 1000 850 50  0000 C CNN
-F 2 "bus_raspberry_pi:OSHW_LOGO_250mil" H 1000 1100 50  0001 C CNN
-F 3 "" H 1000 1100 50  0000 C CNN
-	1    1000 1100
+P 900 4250
+F 0 "H5" H 900 4500 50  0000 C CNN
+F 1 "OSHW_LOGO" H 900 4000 50  0000 C CNN
+F 2 "bus_raspberry_pi:OSHW_LOGO_250mil" H 900 4250 50  0001 C CNN
+F 3 "" H 900 4250 50  0000 C CNN
+	1    900  4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -193,34 +193,34 @@ $EndComp
 $Comp
 L C_HORIZ C6
 U 1 1 53E3D418
-P 3300 1500
-F 0 "C6" H 3360 1560 50  0000 L CNN
-F 1 ".1uF" H 3360 1430 50  0000 L CNN
-F 2 "bus_raspberry_pi:Capacitor3MMDiscRM2.5" H 3338 1350 30  0001 C CNN
-F 3 "" H 3300 1500 60  0000 C CNN
-	1    3300 1500
+P 3100 1500
+F 0 "C6" H 3160 1560 50  0000 L CNN
+F 1 ".1uF" H 3160 1430 50  0000 L CNN
+F 2 "bus_raspberry_pi:Capacitor3MMDiscRM2.5" H 3138 1350 30  0001 C CNN
+F 3 "" H 3100 1500 60  0000 C CNN
+	1    3100 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_VERT R3
 U 1 1 53E3D54A
-P 3600 1200
-F 0 "R3" H 3670 1250 50  0000 L CNN
-F 1 "10K" H 3670 1150 50  0000 L CNN
-F 2 "bus_raspberry_pi:Resistor_Horizontal__400" H 3600 1250 60  0001 C CNN
-F 3 "" H 3600 1250 60  0000 C CNN
-	1    3600 1200
+P 3400 1100
+F 0 "R3" H 3470 1150 50  0000 L CNN
+F 1 "10K" H 3470 1050 50  0000 L CNN
+F 2 "bus_raspberry_pi:Resistor_Horizontal__400" H 3400 1150 60  0001 C CNN
+F 3 "" H 3400 1150 60  0000 C CNN
+	1    3400 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L SCHOTTKY_DIODE_VERT D1
 U 1 1 53E3D5A6
-P 3950 1150
-F 0 "D1" H 3900 1000 50  0000 C CNN
-F 1 "SD101C-TR" H 3700 1250 50  0000 C CNN
-F 2 "bus_raspberry_pi:Diode_DO-41_SOD81_Horizontal_RM10" H 3950 1150 60  0001 C CNN
-F 3 "" H 3950 1150 60  0000 C CNN
-	1    3950 1150
+P 3700 1150
+F 0 "D1" H 3650 1000 50  0000 C CNN
+F 1 "SD101C-TR" H 3450 1250 50  0000 C CNN
+F 2 "bus_raspberry_pi:Diode_DO-41_SOD81_Horizontal_RM10" H 3700 1150 60  0001 C CNN
+F 3 "" H 3700 1150 60  0000 C CNN
+	1    3700 1150
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -300,7 +300,7 @@ U 1 1 53E3FD6B
 P 950 5350
 F 0 "N5" H 850 5950 50  0000 C CNN
 F 1 "FTDI_HEADER" H 950 5125 50  0000 C CNN
-F 2 "bus_raspberry_pi:Pin_Header_Straight_1x06" H 950 5350 60  0001 C CNN
+F 2 "bus_raspberry_pi:Pin_Header_Straight_1x06" H 950 5350 60  0000 C CNN
 F 3 "" H 950 5350 60  0000 C CNN
 	1    950  5350
 	1    0    0    -1  
@@ -432,7 +432,6 @@ NoConn ~ 7200 900
 NoConn ~ 7200 1100
 NoConn ~ 5600 900 
 NoConn ~ 5600 1000
-NoConn ~ 5600 1100
 NoConn ~ 5600 1200
 NoConn ~ 5600 1300
 NoConn ~ 5600 2700
@@ -578,12 +577,12 @@ AVR JTAG Connector
 $Comp
 L 74X08 U2
 U 1 1 53E78B22
-P 2500 1500
-F 0 "U2" H 2500 1750 50  0000 C CNN
-F 1 "74HC08" H 2500 1250 50  0000 C CNN
-F 2 "bus_raspberry_pi:DIP-14__300" H 2500 1500 60  0001 C CNN
-F 3 "" H 2500 1500 60  0000 C CNN
-	1    2500 1500
+P 2300 1500
+F 0 "U2" H 2300 1750 50  0000 C CNN
+F 1 "74HC08" H 2300 1250 50  0000 C CNN
+F 2 "bus_raspberry_pi:DIP-14__300" H 2300 1500 60  0001 C CNN
+F 3 "" H 2300 1500 60  0000 C CNN
+	1    2300 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -596,17 +595,6 @@ F 2 "bus_raspberry_pi:DIP-14__300" H 6800 3300 60  0001 C CNN
 F 3 "" H 6800 3300 60  0000 C CNN
 	3    6800 3300
 	-1   0    0    1   
-$EndComp
-$Comp
-L C_HORIZ C10
-U 1 1 53E7ABC3
-P 5700 3300
-F 0 "C10" H 5760 3360 50  0000 L CNN
-F 1 ".1uF" H 5760 3230 50  0000 L CNN
-F 2 "bus_raspberry_pi:Capacitor3MMDiscRM2.5" H 5738 3150 30  0001 C CNN
-F 3 "" H 5700 3300 60  0000 C CNN
-	1    5700 3300
-	1    0    0    -1  
 $EndComp
 $Comp
 L C_VERT C5
@@ -765,23 +753,23 @@ $EndComp
 $Comp
 L +3.3V #PWR020
 U 1 1 54AE0541
-P 3950 700
-F 0 "#PWR020" H 3950 660 30  0001 C CNN
-F 1 "+3.3V" H 3950 825 50  0000 C CNN
-F 2 "" H 3950 700 60  0000 C CNN
-F 3 "" H 3950 700 60  0000 C CNN
-	1    3950 700 
+P 3700 750
+F 0 "#PWR020" H 3700 710 30  0001 C CNN
+F 1 "+3.3V" H 3700 875 50  0000 C CNN
+F 2 "" H 3700 750 60  0000 C CNN
+F 3 "" H 3700 750 60  0000 C CNN
+	1    3700 750 
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR021
 U 1 1 54AE0CA5
-P 1400 850
-F 0 "#PWR021" H 1400 810 30  0001 C CNN
-F 1 "+3.3V" H 1400 975 50  0000 C CNN
-F 2 "" H 1400 850 60  0000 C CNN
-F 3 "" H 1400 850 60  0000 C CNN
-	1    1400 850 
+P 900 850
+F 0 "#PWR021" H 900 810 30  0001 C CNN
+F 1 "+3.3V" H 900 975 50  0000 C CNN
+F 2 "" H 900 850 60  0000 C CNN
+F 3 "" H 900 850 60  0000 C CNN
+	1    900  850 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -934,12 +922,12 @@ $EndComp
 $Comp
 L R_VERT_SIP6 R2
 U 1 1 54B3786F
-P 1400 1150
-F 0 "R2" H 1445 1220 50  0000 L CNN
-F 1 "100K_SIP6" H 1445 1120 50  0000 L CNN
-F 2 "bus_raspberry_pi:Pin_Header_Straight_1x06" H 1400 1150 50  0001 C CNN
-F 3 "" H 1400 1150 50  0000 C CNN
-	1    1400 1150
+P 900 1150
+F 0 "R2" H 945 1220 50  0000 L CNN
+F 1 "100K_SIP6" H 945 1120 50  0000 L CNN
+F 2 "bus_raspberry_pi:Pin_Header_Straight_1x06" H 900 1150 50  0001 C CNN
+F 3 "" H 900 1150 50  0000 C CNN
+	1    900  1150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1106,15 +1094,15 @@ Wire Wire Line
 	1400 2200 1400 2100
 Connection ~ 1400 2100
 Wire Wire Line
-	3950 700  3950 900 
+	3700 750  3700 900 
 Wire Wire Line
-	3600 1000 3600 800 
+	3400 900  3400 800 
 Wire Wire Line
-	3950 1500 3950 1400
+	3700 1500 3700 1400
 Wire Wire Line
-	3600 1400 3600 1500
-Connection ~ 3600 1500
-Connection ~ 3950 1500
+	3400 1300 3400 1500
+Connection ~ 3400 1500
+Connection ~ 3700 1500
 Wire Wire Line
 	1300 6100 1400 6100
 Wire Wire Line
@@ -1169,7 +1157,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 3300 9400 3300
 Wire Wire Line
-	3500 1500 4300 1500
+	3300 1500 4300 1500
 Wire Wire Line
 	9200 3500 9200 6200
 Wire Wire Line
@@ -1188,7 +1176,7 @@ Wire Wire Line
 	3300 1800 3300 1900
 Wire Wire Line
 	4300 1700 5600 1700
-Connection ~ 3950 800 
+Connection ~ 3700 800 
 Wire Wire Line
 	5600 1800 5500 1800
 Wire Wire Line
@@ -1205,16 +1193,13 @@ Wire Wire Line
 Wire Wire Line
 	5000 1400 5600 1400
 Wire Wire Line
-	4800 1700 4800 4100
-Connection ~ 4800 1700
-Wire Wire Line
 	5200 1600 5600 1600
 Wire Wire Line
 	9000 3400 9000 6100
 Wire Wire Line
 	8000 1400 8200 1400
 Wire Wire Line
-	3000 1500 3100 1500
+	2800 1500 2900 1500
 Wire Wire Line
 	5200 3000 8000 3000
 Wire Wire Line
@@ -1233,8 +1218,6 @@ Wire Wire Line
 	5500 4200 5400 4200
 Wire Wire Line
 	5400 4200 5400 4300
-Wire Wire Line
-	5900 3300 6300 3300
 Wire Wire Line
 	5500 3900 5200 3900
 Wire Wire Line
@@ -1257,7 +1240,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 2500 4300 2500
 Wire Wire Line
-	1400 950  1400 850 
+	900  950  900  850 
 Wire Wire Line
 	6100 5900 5800 5900
 Wire Wire Line
@@ -1291,7 +1274,6 @@ Wire Wire Line
 	9100 3300 9100 6300
 Wire Wire Line
 	4800 4100 5500 4100
-Connection ~ 4800 3300
 Wire Wire Line
 	4900 7100 4900 7200
 Connection ~ 4900 7100
@@ -1312,18 +1294,14 @@ Connection ~ 4900 7700
 Wire Wire Line
 	5500 1800 5500 800 
 Wire Wire Line
-	5500 800  1900 800 
+	5500 800  1700 800 
 Wire Wire Line
-	1400 1600 2000 1600
+	900  1600 1800 1600
 Wire Wire Line
-	2000 1400 1900 1400
-Wire Wire Line
-	1900 1400 1900 800 
-Connection ~ 3600 800 
+	1800 1400 1700 1400
+Connection ~ 3400 800 
 Wire Wire Line
 	7300 3200 8700 3200
-Wire Wire Line
-	5500 3300 4800 3300
 Wire Wire Line
 	9000 6100 8300 6100
 Wire Wire Line
@@ -1346,7 +1324,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 3300 2000 2800
 Wire Wire Line
-	1400 1600 1400 1350
+	900  1600 900  1350
 Wire Wire Line
 	5600 2800 4900 2800
 Wire Wire Line
@@ -1714,4 +1692,42 @@ NoConn ~ 9200 700
 NoConn ~ 9200 1100
 NoConn ~ 9200 1500
 NoConn ~ 9200 1900
+NoConn ~ 6300 3300
+$Comp
+L RESET_SEL J3
+U 1 1 54D83853
+P 4300 1200
+F 0 "J3" H 4250 1400 50  0000 C CNN
+F 1 "RESET_SEL" H 4300 1000 50  0000 C CNN
+F 2 "bus_raspberry_pi:Pin_Header_Straight_1x03" H 4300 1200 60  0001 C CNN
+F 3 "" H 4300 1200 60  0000 C CNN
+	1    4300 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4100 4800 1200
+Wire Wire Line
+	4800 1200 4600 1200
+Wire Wire Line
+	4600 1300 4700 1300
+Wire Wire Line
+	4700 1300 4700 1700
+Connection ~ 4700 1700
+Wire Wire Line
+	4600 1100 5600 1100
+$Comp
+L R_VERT R7
+U 1 1 54D84A4A
+P 1700 1100
+F 0 "R7" H 1770 1150 50  0000 L CNN
+F 1 "100K" H 1770 1050 50  0000 L CNN
+F 2 "bus_raspberry_pi:Resistor_Horizontal__400" H 1700 1150 60  0001 C CNN
+F 3 "" H 1700 1150 60  0000 C CNN
+	1    1700 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 800  1700 900 
+Wire Wire Line
+	1700 1400 1700 1300
 $EndSCHEMATC

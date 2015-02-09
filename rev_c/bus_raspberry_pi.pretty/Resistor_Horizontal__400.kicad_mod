@@ -1,10 +1,10 @@
-(module Resistor_Horizontal__400 (layer F.Cu)
+(module Resistor_Horizontal__400 (layer F.Cu) (tedit 54D82C5D)
   (descr "Resistor, Axial,  400 mils, 1/3W")
   (tags "Resistor, Axial, 400 mis, 1/3W")
   (fp_text reference R7 (at 0 -2.44) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
-  (fp_text value RESISTOR (at 0 2.42) (layer F.SilkS) hide
+  (fp_text value 100K (at 0 2.42) (layer F.SilkS) hide
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
   (fp_line (start -2.46126 0) (end -3.47726 0) (layer F.SilkS) (width 0.381))
@@ -13,6 +13,6 @@
   (fp_line (start 2.61874 -1.27) (end 2.61874 1.27) (layer F.SilkS) (width 0.381))
   (fp_line (start 2.61874 1.27) (end -2.46126 1.27) (layer F.SilkS) (width 0.381))
   (fp_line (start -2.46126 1.27) (end -2.46126 -1.27) (layer F.SilkS) (width 0.381))
-  (pad 1 thru_hole circle (at -5.08 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask))
-  (pad 2 thru_hole circle (at 5.08 0) (size 1.99898 1.99898) (drill 1.00076) (layers *.Cu *.SilkS *.Mask))
+  (pad 1 thru_hole circle (at -5.08 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.SilkS *.Mask))
+  (pad 2 thru_hole circle (at 5.08 0) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.SilkS *.Mask))
 )
