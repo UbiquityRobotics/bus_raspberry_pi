@@ -270,4 +270,13 @@ resistors R5 and R6 form a voltage divider that simply
 wastes power.  At least it does not accidentally short
 the power supply to ground.
 
+## Revision B and C Issues
+
+The following issues need to be worked on:
+
+* The two mounting holes on the right are too close to the
+  SIP9 resistor.
+
+* Realistically, the processor should be run at 5V in order
+  run the crystal at 16MHz.
 
