@@ -1,5 +1,8 @@
 // Copyright (c) 2014 by Wayne C. Gramlich.  All rights reserved.
 
+#ifndef FRAME_BUFFER_H_INCLUDED
+#define FRAME_BUFFER_H_INCLUDED 1
+
 #include "Bus_Slave.h"
 
 class Frame_Buffer {
@@ -19,3 +22,4 @@ class Frame_Buffer {
     UByte _out_index;			// Output index
 };
 
+#endif // FRAME_BUFFER_H_INCLUDED 1
