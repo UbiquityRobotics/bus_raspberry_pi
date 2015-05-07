@@ -6,6 +6,87 @@ The bus is a half-duplex multi-drop bus that runs at 500 Kbps.
 It uses a Microchip MCP2562 CAN bus transceivers to connect to
 the bus.
 
+## Firmware
+
+The software environment for the bus_raspberry_pi is more complicated
+than we would like.  The bus_raspberry_pi deliberately uses
+an ATmega324P microcontroller to be as compatible as possible
+with the Arduino community.  Unfortunately, about the only
+board out there that used the '324P is the Sanguino and it
+rapidly fell out of use.  Thus, '324P support is a bit more
+complicated than we would like.  The key thing is that we have
+forked a version of the Arudino repository to add '324P support.
+Please note, that our fork of the Arduino system only adds '324P
+support and nothing else.  Thus, we should have no problems tracking
+the main portions of the Arduino code base.
+
+In addition, the Arduino-IDE does not play nice with version
+control systems.  So, we use a fairly popular alternative called
+`Arduino-Makefile` which uses fairly standard Makefiles and
+standalone editors (e.g. `vim` or `emacs`) to develop Arduino
+code that is complatible with the Arduino IDE.
+
+### Installing the Bootloader
+
+(To be written up)
+
+### Installing the Arduino-Makefile Development Environment
+
+To set things up:
+
+        cd .../catkin_ws/src
+        git clone https://github.com/UbiquityRobotics/Arduino-Makefile.git
+        git clone https://github.com/UbiquityRobotics/bus_common.git
+        git clone https://github.com/UbiquityRobotics/bus_raspberry_pi.git
+        git clone https://github.com/UbiquityRobotics/bus_server.git
+        git clone https://github.com/UbiquityRobotics/bus_slave.git
+        # The following command downloads ~2GB of version control stuff.
+	# Even with a fast link it takes a while...
+        git clone https://github.com/UbiquityRobotics/Arduino.git
+
+Next, we need to bring over all the compilers and stuff to support
+the AVR compilation environment:
+
+        sudo apt-get avr-libc avrdude binutils-avr gcc-avr
+	# We also need GNU make:
+        sudo apt-get install build-essential
+
+When all of the dust settles, you should be able to do the following:
+
+        cd .../catkin_ws/src/bus_raspberry_pi
+        make
+        make upload       # Read below for more about uploading
+
+The upload target expects you to have USB-serial cable
+plugged into your laptop/desktop.  We use the DFRobot
+FTDI Basic Breakout board.  This board has two features
+that we like:
+
+* One you can select between 3.3V and 5V.  We always use 3.3V.
+  Ground is pin 1 and plugs into pin 1 of N4 on the
+  bus_raspberry_pi.
+
+* It puts DTR on pin 6 instead of RTS.  The DTR signal is
+  what the Arduinos use for their reset signal.
+
+This board requires a USB-A to mini-USB-B cable.  We purchased
+ours from Jameco (part number: 2152243.)
+
+### The Firmware
+
+The actual code that implements the firmware starts in
+`bus_raspberry_pi.ino`.  The key line is:
+
+        #define TEST TEST_...
+
+The values for `TEST_...` are found in `../bus_server/bus_server.h`:
+
+* `TEST_BUS_OUTPUT` outputs a stream of chacters on the serial port.
+* `TEST_BUS_ECHO` is a strange bus debugging mode (too hard to explain.)
+* `TEST_BUS_COMMAND` blinks an LED on the motor controller board.
+* `TEST_BUS_BRIDGE` runs the software as a bus bridge.
+* `TEST_BUS_LINE` runs the ROS Arduino Bridge protocol.
+
 ## Revision A
 
 The schematic can be found in the `rev_a` folder as
@@ -242,7 +323,7 @@ and the RXD signal of N4.
 The GPIO14_TXD is routed through the R1G/R2G voltage
 divider directly to the RXD pin of N5.
 
-## LED Circuit
+### LED Circuit
 
 The LED circuit is provides a single LED (D2) that can be
 
@@ -270,7 +351,7 @@ resistors R5 and R6 form a voltage divider that simply
 wastes power.  At least it does not accidentally short
 the power supply to ground.
 
-## Revision B and C Issues
+### Revision B and C Issues
 
 The following issues need to be worked on:
 
