@@ -6,7 +6,7 @@
 #include <Frame_Buffer.h>
 #include <bus_server.h>
 
-#define TEST TEST_BUS_LINE
+#define TEST TEST_RAB_FREYA
 
 // The *setup* routine runs on power up and when you press reset:
 
