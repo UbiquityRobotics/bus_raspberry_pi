@@ -10,7 +10,14 @@
 
 // The *setup* routine runs on power up and when you press reset:
 
-Bridge bridge(&avr_uart0, &avr_uart1, &avr_uart0);
+// Define the UART's:
+NULL_UART null_uart;
+AVR_UART *bus_uart = &avr_uart1;
+AVR_UART *debug_uart = &avr_uart0;
+AVR_UART *host_uart = &avr_uart0;
+
+Bus_Slave bus_slave((UART *)bus_uart, (UART *)host_uart);
+Bridge bridge(&avr_uart0, &avr_uart1, &avr_uart0, &bus_slave);
 
 void setup() {
   bridge.setup(TEST);
