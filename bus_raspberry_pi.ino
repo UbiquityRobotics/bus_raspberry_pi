@@ -1,4 +1,4 @@
-// Copyright (c) 2014 by Wayne C. Gramlich.  All rights reserved.
+// Copyright (c) 2014-2015 by Wayne C. Gramlich.  All rights reserved.
 //
 // This code drives the bus_beagle_bone_black board.
 
@@ -10,10 +10,12 @@
 
 // The *setup* routine runs on power up and when you press reset:
 
+Bridge bridge(&avr_uart0, &avr_uart1, &avr_uart0);
+
 void setup() {
-  bridge_setup(TEST);
+  bridge.setup(TEST);
 }
 
 void loop () {
-  bridge_loop(TEST);
+  bridge.loop(TEST);
 }
