@@ -8,6 +8,8 @@
 
 #define TEST TEST_RAB_FREYA
 
+#define BUS_STANDBY       3
+
 class Freya_Motor_Encoder : Bus_Motor_Encoder {
  public:
   Freya_Motor_Encoder(Bus_Slave *bus_slave, UShort address, 
@@ -65,6 +67,8 @@ Bridge bridge(&avr_uart0, &avr_uart1, &avr_uart0, &bus_slave,
  (Bus_Motor_Encoder *)&right_motor_encoder);
 
 void setup() {
+  pinMode(BUS_STANDBY, OUTPUT);
+  digitalWrite(BUS_STANDBY, LOW);
   bridge.setup(TEST);
 }
 
